@@ -1,0 +1,12 @@
+name1 = input("Enter ur name: ")
+name2 = input("Enter ur cutie ka naam: ")
+num1=0
+num2=0
+
+for letter in name1:
+    num1= ord(letter.upper()) -64
+
+for letter in name2:
+    num2= ord(letter.upper()) -64
+
+print(name1,"+",name2,"=",num1+num2) 
