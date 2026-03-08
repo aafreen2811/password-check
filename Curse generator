@@ -1,0 +1,7 @@
+import random 
+curses=["idiot","vollidiot","asshole","clown","asswipe"]
+name=input("Enter your name: ")
+
+hmm=random.choice(curses)
+
+print(name,"you absolute",hmm)
